@@ -40,13 +40,14 @@ document.getElementById('add-pdf-button').addEventListener('click', function() {
 const journeyData = [
     { event: "End of 1st semester exams", date: "2024-02-01" },
 	{ event: "Preparation with Supervisor", date: "2024-02-03" },
-	{ event: "Project proposal Chp1&3", date: "2024-02-05" },
+	{ event: "Project proposal", date: "2024-02-05" },
 	{ event: "Practice Test", date: "2024-02-06" },
     { event: "Pre-council exam", date: "2024-01-06" },
 	{ event: "Learning SPSS/Data Analysis", date: "2024-02-15" },
 	{ event: "Project Chapter 4&5", date: "2024-02-16" },
-    { event: "Special posting/Questionnaire distribution", date: "2024-03-17" },
-    { event: "Project final review/Corrections", date: "2024-04-01" },
+    { event: "Special posting", date: "2024-03-17" },
+	 { event: "Questionnaire distribution", date: "2024-03-17" },
+    { event: "Project final review", date: "2024-04-01" },
     { event: "Avoid Printers/Binders holdup!!", date: "2024-05-26" },
     { event: "Final Study", date: "2024-05-01" },
     { event: "Council Exam", date: "2024-05-06" }
