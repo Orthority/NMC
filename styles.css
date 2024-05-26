@@ -111,4 +111,5 @@ footer {margin-top: 10px;
   
 }#map-container text {
     fill: white;
+	 font-size: calc(1vw + 1vh);
 }
