@@ -88,6 +88,9 @@ g.selectAll("circle")
     .attr("cy", d => d.y)
     .attr("r", 10)
     .attr("fill", "#007BFF");
+function updateDimensions() {
+    const containerWidth = document.getElementById("map-container").offsetWidth;
+    const containerHeight = 400; 
 
 g.selectAll("text")
     .data(journeyData)
