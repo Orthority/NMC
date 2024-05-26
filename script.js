@@ -58,7 +58,7 @@ const svg = d3.select("#map-container")
     .attr("viewBox", `0 0 800 400`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 
-const margin = { top: 20, right: 30, bottom: 190, left: 40 },
+const margin = { top: 20, right: 30, bottom: 230, left: 40 },
     width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
